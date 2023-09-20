@@ -1,0 +1,15 @@
+Run the below lines in your terminal.
+You should only need to run the Getting Started commands once.
+
+Getting Started - create and activate a virtual environment
+py -m venv myvenv
+myvenv/Scripts/activate
+
+Getting Started - rename all solution files to include your team name
+Replace your_team_name with your chosen team name.
+py -m rename_solutions your_team_name
+
+Testing Solutions
+You can run your solutions against sample test cases using the below code.
+Replace 0 with the question number you want to test.
+py -m test 0
